@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <header class="headerContainer">
+        <nav class="boxContainer">
+            <ul>
+                <li>
+                    <a class="white_txt noPoint" href="">Accueil</a>
+                    <!-- mes Ul et Li sont déjà affecté directement dans le css, je n'ai pas crée de class-->
+                </li>
+            </ul>
+        </nav>
+        <div class="boxContainer">
+            <h1>Exercice : Formulaire</h1>
+            <!-- Pareil pour mon h1, je l'ai directement affecté via le css, je n'ai pas crée de class -->
+        </div>
+    </header>
+    <main class="greyBackground">
+        <section>
+            <form action="" name="Contactez-nous" class="formContainer">
+                <h2>Contactez-nous</h2>
+                <p class="">Nom</p>
+                <!-- Création de class padding_bottom pour créer un espace vers le bas,
+                 et ainsi pour créer un espace entre le "nom" et l'input "votre nom" -->
+                 <div class="padding_top">
+                     <label for="Nom">
+                         <input type="text" id="Nom" placeholder="Votre nom" name="Nom"> 
+                     </label> 
+                </div>
+                <!-- Placeholder sert à écrire DANS le input
+                  j'ai galéré 20min dessus donc je te le rappelle ici -->
+                  <!-- J'ai également ajouté un id Nom à l'input pour créer une case de text plus grande avec un padding-->
+                <div class="padding_top">
+                  <label for="Email">
+                        <p class="">Email</p>
+                         <input type="text" id="Email" placeholder="Votre email" name="Email">
+                    <!-- Création d'un ID Email pour créer plus d'espace via un padding dans ma case -->
+                     </label>
+                </div>
+                <label for="Message">
+                    <div class="padding_top">
+                    <p class="">Message</p>
+                    <textarea type="text" id="Message" placeholder="Votre message" name="Message">
+                    </textarea>
+                    <!-- Création d'un ID Message pour créer plus d'espace via un padding dans ma case -->
+                     </div>
+                </label>
+                    <div class="padding_top">
+                        <!-- class padding top pour créer un espace entre la case msg et le 
+                         button Envoyer -->
+                         <INput:button class="button noPoint">Envoyer</INput:button>
+                    </div>
+            </form>
+        </section>
+        <section>
+            <p class="grey_txt">
+                <!-- Crétation de class grey_txt que mes écrits influencé par cette class deviennent
+                 gris. -->
+                Reproduisez ce formulaire avec le style proposé 
+            </p>
+        </section>
+    </main>
+    <footer class="footerContainer padding_top">
+        <div class="boxContainer center grey_txt padding_top">
+            <p>2024 pratique HTML/CSS</p>
+        </div>
+    </footer>   
+</body>
+</html>

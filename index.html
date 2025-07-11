@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third_maquette</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="headerContainer">
+        <nav class="boxContainer">
+            <ul>
+                <li>
+                    <!-- création de class noPoint pour enlever les points du Li ainsi que les soulignement des a
+                     j'ai également crée une class white_txt pour rendre les textes que je souhaite en blanc-->
+                    <a class="white_txt noPoint" href="">Accueil</a> 
+                </li>
+                <li>
+                    <a class="white_txt noPoint" href="">Typographie</a>
+                </li>
+                <li>
+                    <a class="white_txt noPoint" href="">Formulaires</a>
+                </li>
+                <li>
+                    <a class="white_txt noPoint" href="">Positions</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="boxContainer">
+            <h1 class="white_txt">Pratiquez le HTML & CSS</h1>
+        </div>
+    </header>
+    <br>
+    <main>
+        <section class="boxShadow">
+            <!-- création de class boxShadow pour créer des ombres autour de toutes mes sections différentes
+             ca me permet de mieux me situer et c'est conforme à l'exercice-->
+            <div class="boxContainer">
+                <img class="imgLeft" src="/assets/img/firstSection_img.webp" alt="Image d'une personne qui écrit sur son ordinateur"> 
+                <!-- J'ai crée une class imgLeft pour que mes images se callent tout le temps sur la gauche
+                 une fois que je leur attribu cette class -->
+            </div>
+            <div class="boxContainer textPadding">
+                <!-- La class textPadding me sert à centrer mes écrits au centre de la border, sinon les images ou écrit debordent -->
+                <h2>Exercice Typographie</h2> <br>
+                <p>Pratiquez la gestion des tailles de texte (px,%,em,rem) sur cette page dédiée</p> <br> <br>
+                <a class="button white_txt noPoint" href="">Pratiquer</a>
+                <!-- j'ai crée une class button comme demandé sur la maquette, j'ai également mis un hover -->
+            </div>
+        </section>
+        <br>
+        <section class="boxShadow">
+            <div class="boxContainer">
+                <img class="imgLeft" src="/assets/img/SecondSection_img.png" alt="Image de plusieurs pc sur un bureau ainsi que d'autres objets">
+            </div>
+            <div class="boxContainer textPadding">
+                <h2>Exercice formulaire</h2> <br>
+                <p>Entraînez-vous à créer et styliser un formulaire simple et moderne.</p> <br>
+                <a class="button white_txt noPoint" href="">Pratiquer</a>
+            </div>
+        </section>
+        <br>
+        <section class="boxShadow">
+            <div class="boxContainer">
+                <img class="imgLeft" src="/assets/img/ThirdSection_img.jpg" alt="Image d'un petit coin d'eau ainsi que de la verdure dans la nature">
+            </div>
+            <div class="boxContainer textPadding">
+                <h2>Exercice Positionnement</h2> <br>
+                <p>Expérimentez avec les propriétés <strong>relative</strong> et <strong>absolute</strong> 
+                sur une page dédiée</p> <br> <br>
+                <a class="button white_txt noPoint" href="">Pratiquer</a>
+            </div>
+        </section>
+        <br>
+        <br>
+    </main>
+    <footer class="footerContainer">
+        <div class="boxContainer center grey_txt">
+            <p>2025 pratique HTML/CSS - Exercices Flexbox</p>
+        </div>
+    </footer>   
+</body>
+</html>

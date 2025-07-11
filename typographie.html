@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typographie</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <header class="headerContainer">
+        <nav class="boxContainer">
+            <ul>
+                <li>
+                    <a class="white_txt noPoint" href="">Accueil</a>
+                    <!-- mes Ul et Li sont déjà affecté directement dans le css, je n'ai pas crée de class-->
+                </li>
+            </ul>
+        </nav>
+        <div class="boxContainer">
+            <h1>Exercice : Typographie</h1>
+            <!-- Pareil pour mon h1, je l'ai directement affecté via le css, je n'ai pas crée de class -->
+        </div>
+    </header>
+    <main>
+        <section id="site_content">
+            <div class="boxContainer">
+                <h2>Reproduisez ces styles de texte</h2>
+                <!-- J'ai changé le style d'écriture du h2 directement dans le css sans création de class 
+                 j'ai également ajouté un padding bottom de 80px pour créer un espace avec les écrits du dessous-->
+            </div>
+            <div class="boxContainer Left">
+                <!-- Création de class Left pour placer la box ainsi que son contenu sur la gauche de mon élément -->
+                Taille en px
+            </div>
+            <div class="boxContainer Right px32 greyBackground">
+                <!-- Création de class Right pour placer la box ainsi que son contenu sur la droite -->
+                <!-- Création de class px32 pour écrire en taille 32px -->
+                32px
+            </div>
+        </section>
+        <section id="site_content">
+            <div class="boxContainer Left">
+                Taille en %
+            </div>
+            <div class="boxContainer Pour150 Right greyBackground">
+                <!-- Création de class Pour150, Pour signifie pourcentage, cette class est pour écrire en 
+                 taille 150% -->
+                150%
+            </div>
+        </section>
+        <section id="site_content">
+            <div class="boxContainer Left">
+                Taille en em
+            </div>
+            <div class="boxContainer Right greyBackground Em_2">
+                <!-- Création de class Em_2, cette class est pour écrire en taille 2em-->
+                2em
+            </div>
+        </section>
+        <section id="site_content">
+            <div class="boxContainer Left">
+                Taille en rem
+            </div>
+            <div class="boxContainer Right greyBackground Rem_2half">
+                <!-- Création de class Rem_2half, half signifie moitié en anglais,
+                 cette class me permet d'écrire en taille 2.5 rem -->
+                2.5 rem
+            </div>
+        </section>
+        <div class="padding_top boxContainer center">
+            Essayez de reproduire cette page en utilisant les différentes unités de taille de texte
+        </div>
+    </main>
+    <footer class="footerContainer padding_top">
+        <div class="boxContainer center grey_txt">
+            <p>2024 pratique HTML/CSS</p>
+        </div>
+    </footer>   
+</body>
+</html>

@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.headerContainer{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/assets/img/HeaderTypographie.jpg);
+    width: 100%;
+}
+
+.boxContainer{
+    width: auto;
+    padding: auto;
+    margin: auto;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+li {
+  display: inline;
+  margin-left: 20px;
+  font-family: "Helvetica";
+}
+
+h1{
+    padding:20px;
+    color: aliceblue;
+    font-family: "Helvetica";
+}
+.noPoint{
+    list-style-type: none;
+    text-decoration: none;
+ }
+
+.white_txt{
+    color: aliceblue;
+}
+
+#site_content{
+    padding-top: 80px;
+}
+
+section{
+    padding-top: 80px;
+    margin-left:300px;
+    margin-right: 300px;
+}
+
+h2{
+    font-family: "Helvetica";
+    padding-bottom: 30px;
+}
+
+.Right{
+    display: flex;
+    justify-content: center;
+    float: right;
+}
+.Left{
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+
+.px32{
+    font-size: 32px;
+}
+
+
+.greyBackground{
+    background-color: rgb(252, 252, 252);
+    border-radius: 5px;
+}
+.Pour150{
+    font-size: 150%;
+}
+.Em_2{
+    font-size: 2em;
+}
+.Rem_2half{
+    font-size: 2.5rem;
+}
+
+.footerContainer{
+    width: 100%;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.padding{
+    padding:10px;
+}
+.padding_bottom{
+    padding-bottom:40px;
+}
+
+#Message{
+    padding: 40px;
+}
+
+#Nom{
+    padding: 10px;
+}
+
+#Email{
+    padding: 10px;
+}
+.button{
+    margin:10px;
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(244, 244, 250);
+    background-color: rgb(30, 30, 60);
+}
+.button:hover{
+    background-color: blueviolet;
+}
+
+.formContainer{
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 6px;
+}
+
+.padding_top{
+    padding-top: 40PX;
+}
+
+p{
+    font-family: "Helvetica";
+}
+
+.grey_txt{
+    color: grey;
+}
+
+.mainPosition{
+    background-color: rgb(238, 238, 238);
+    padding: 50px 0 100px;
+}
+.exoPositionContainer{
+    background-color: rgb(255,255,255);
+    width: 40%;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 6px;
+}
