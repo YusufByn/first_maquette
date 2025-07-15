@@ -154,6 +154,56 @@ p{
     background-color: rgb(255,255,255);
     width: 40%;
     margin: 0 auto;
-    padding: 16px;
+    padding: 50px;
     border-radius: 6px;
+    position: relative;
+}
+.miniContainer{
+    width: 20%;
+    padding: 35px;
+    background-color: rgb(30, 30, 60);
+    color: aliceblue;
+    border-radius: 10px;
+    font-family: "Helvetica";
+}
+.absoluteContainer{
+    position: absolute;
+    width: 10%;
+    padding: 15px;
+    top: 100%;
+    left: 100%;
+    transform: translate(-140%, -150%);
+    border-radius: 10px;
+    font-family: "Helvetica";
+}
+
+.yellow{
+        background-color: yellow;
+}
+
+.red{
+    background-color: rgb(255, 111, 97);
+}
+
+.green{
+    background-color: rgb(76, 175, 80);
+}
+.absoluteContainer_1{
+    position: absolute;
+    width: 5%;
+    padding: 15px;
+    top: 0%;
+    left: 100%;
+    transform: translate(-120%, 40%);
+    border-radius: 10px;
+    font-family: "Helvetica";
+}
+.absoluteContainer_2{
+    position: absolute;
+    width: 5%;
+    padding: 15px;
+    top: 73%;
+    left: 8%;
+    border-radius: 10px;
+    font-family: "Helvetica";
 }
