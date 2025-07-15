@@ -35,9 +35,9 @@
                 Absolute
             </div>
         </section>
-        <p class="padding_top center">
-            <!-- la class center me permet de centrer le texte, et paddin_top de créer un espacement entre 
-             le texte et mes box du -->
+        <p class="padding_top padding_bottom center">
+            <!-- la class center me permet de centrer le texte, et paddin_top ainsi que
+             bottom afin de créer un espacement entre le texte et mes box du -->
             1. Reproduisez ce positionnement avec les propriétées Relative et Absolute
         </p>
         <section class="exoPositionContainer">
@@ -45,16 +45,52 @@
                 Relative
             </div>
             <div class="absoluteContainer_1 red">
+                <!-- Création d'une class absolutecontainer_1 qui a des attributs différent 
+                 de la première section. -->
                 abs1
             </div>
             <div class="absoluteContainer_2 green">
+                <!-- Création d'une class absolutecontainer_2 qui a des attributs différent
+                 des 2 autres class -->
                 abs2
             </div>
         </section>
-        <p class="">
-            
+        <p class="padding_top padding_bottom center">
+            2. PLacez deux éléments absolute dans deux coins opposés du conteneur.
+        </p>
+        <section class="exoPositionContainer">
+            <div class="miniContainer">
+                Relative
+            </div>
+            <div class="yellow absoluteContainer_3">
+                <!-- Création d'une class absolutecontainer_3 qui a des attributs différent
+                 des 3 autres class  -->
+                Absolute
+            </div>
+        </section>
+        <p class="padding_top padding_bottom center">
+            3. Superposez deux éléments avec z-index pour contrôler l'ordre d'affichage.
+        </p>
+        <section class="exoPositionContainer">
+            <div class="miniContainer">
+                Relative
+            </div>
+            <div class="absoluteContainer green">
+                Absolute
+            </div>
+            <div class="absoluteContainer_4 red">
+                abs in rel
+            </div>
+        </section>
+        <p class="padding_bottom padding_top center">
+            4. Placez un élément absolute à l'intérieur d'un bloc relative
+            et un autre en dehors, avec superposition.
         </p>
     </main>
-    
+    <footer class="footerContainer padding_top">
+        <div class="boxContainer center grey_txt padding_top">
+            <p>2024 pratique HTML/CSS</p>
+        </div>
+    </footer>   
 </body>
 </html>

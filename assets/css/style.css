@@ -207,3 +207,22 @@ p{
     border-radius: 10px;
     font-family: "Helvetica";
 }
+
+.absoluteContainer_3{
+    position: absolute;
+    width: 10%;
+    padding: 15px;
+    top: 40%;
+    left: 20%;
+    border-radius: 10px;
+    font-family: "Helvetica";
+}
+.absoluteContainer_4{
+    position: absolute;
+    width: 10%;
+    padding: 15px;
+    top: 30%;
+    left: 15%;
+    border-radius: 10px;
+    font-family: Helvetica;
+}
